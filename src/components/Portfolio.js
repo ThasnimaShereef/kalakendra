@@ -14,7 +14,7 @@ const Portfolio = () => {
   { id: 5, title: 'Puja Room', imgSrc: `${process.env.PUBLIC_URL}/image/pujaroom/pujaroom2.jpg`, link: '/puja-room' },
   { id: 6, title: 'Office', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/living2.jpg`, link: '/office' },
   { id: 7, title: 'Washroom', imgSrc: `${process.env.PUBLIC_URL}/image/washroom/washroom5.jpg`, link: '/washroom' },
-  { id: 8, title: 'Entrance', imgSrc: `${process.env.PUBLIC_URL}/image/Entrance/entrance.jpg`, link: '/entrance' },
+  { id: 8, title: 'Entrance', imgSrc: `${process.env.PUBLIC_URL}/image/entrance/entrance.jpg`, link: '/entrance' },
   { id: 9, title: 'Exterior', imgSrc: `${process.env.PUBLIC_URL}/image/exterior/exterior1.jpeg`, link: '/exterior' }
   ];
 
