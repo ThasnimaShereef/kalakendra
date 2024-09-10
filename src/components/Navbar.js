@@ -9,7 +9,8 @@ const Navbar = () => {
 
       <div className="navbar-brand">
       <Link to="/">
-          <img src="/image/logo/icon green.png" alt="Kala Kendra Logo" className="navbar-logo" />
+      <img src={`${process.env.PUBLIC_URL}/image/logo/icon green.png`} alt="Kala Kendra Logo" className="navbar-logo" />
+
         </Link>
       </div>
       <ul className="navbar-links">
