@@ -1,0 +1,54 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+}
+:root {
+  --primary-color-dark: #565a4b; /* Dark green */
+  --primary-color-light: white;  /* #e2bb99;  Beige */
+  --secondary-color: #763f22; /* Brown */
+  --text-color: #333; /* Dark text color */
+  --font-family: 'Merriweather', serif; /* Assuming similar to the font used */
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-color-dark) !important;
+  color: var(--text-color);
+}
+
+.hero {
+  /* background-image: url('logo192.png'); */
+  /* background-image: url('/image/livingroom.jpg') no-repeat center center; */
+  background-color: var(--primary-color-dark);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio-item {
+  /* background-color: white; */
+  border: 1px solid var(--primary-color-dark);
+  margin: 20px;
+  padding: 20px;
+}
+
+.cta-button {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
