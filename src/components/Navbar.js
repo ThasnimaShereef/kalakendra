@@ -5,7 +5,8 @@ import './Navbar.css'; // We'll add some styling here
 
 const Navbar = () => {
   return (
-    <nav className="navbar" style={{ backgroundImage: `url(`${process.env.PUBLIC_URL}/image/logo/Untitled-1.png`)` }}>
+    <nav className="navbar" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/Untitled-1.png)` }}>
+
       <div className="navbar-brand">
       <Link to="/">
           <img src="/image/logo/icon green.png" alt="Kala Kendra Logo" className="navbar-logo" />
