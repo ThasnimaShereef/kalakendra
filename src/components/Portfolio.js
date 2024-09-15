@@ -7,7 +7,11 @@ import './Portfolio.css'; // Custom styles for cards and images
 const Portfolio = () => {
   const sections = [
     
+<<<<<<< HEAD
     { id: 1, title: 'Bedroom', imgSrc: `${process.env.PUBLIC_URL}/image/bedroom/bedroom5.jpg`, link: '/bedroom' },
+=======
+  { id: 1, title: 'Bedroom', imgSrc: `${process.env.PUBLIC_URL}/image/bedroom/bedroom5.jpg`, link: '/bedroom' },
+>>>>>>> d9c722d (Add .gitignore and remove build files)
   { id: 2, title: 'Kids Room', imgSrc: `${process.env.PUBLIC_URL}/image/kidsroom/kids1.jpg`, link: '/kids-room' },
   { id: 3, title: 'Kitchen', imgSrc: `${process.env.PUBLIC_URL}/image/kitchen/kitchen1.jpeg`, link: '/kitchen' },
   { id: 4, title: 'Living and Dining Area', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/living4.jpeg`, link: '/living-room' },
@@ -15,12 +19,16 @@ const Portfolio = () => {
   { id: 6, title: 'Office', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/living2.jpg`, link: '/office' },
   { id: 7, title: 'Washroom', imgSrc: `${process.env.PUBLIC_URL}/image/washroom/washroom5.jpg`, link: '/washroom' },
   { id: 8, title: 'Entrance', imgSrc: `${process.env.PUBLIC_URL}/image/entrance/entrance.jpg`, link: '/entrance' },
+<<<<<<< HEAD
   { id: 9, title: 'Exterior', imgSrc: `${process.env.PUBLIC_URL}/image/exterior/exterior1.jpeg`, link: '/exterior' }
+=======
+  { id: 9, title: 'Exterior', imgSrc: `${process.env.PUBLIC_URL}/image/Exterior/exterior1.jpeg`, link: '/exterior' }
+>>>>>>> d9c722d (Add .gitignore and remove build files)
   ];
 
   return (
     <div className="container my-5">
-      <h2 className="text-center mb-4">Our Projects</h2>
+      <h2 className="text-center mb-4 heading">Our Projects</h2>
       <div className="row">
         {sections.map((section) => (
           <div key={section.id} className="col-md-4 mb-4">

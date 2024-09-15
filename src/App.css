@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+ #about, #services, #portfolio , #reviews{
+  padding: 100px 0;
+}
+#portfolio, #services, #contact{
+  background-color:#f4e4c4;
+}
+ #home{
+  padding: 0 0 0 0;
+ }

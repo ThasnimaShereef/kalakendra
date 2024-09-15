@@ -1,8 +1,8 @@
 // src/components/About.js
 import React from 'react';
-import './About.css';
+// import './About.css';
 
-const About = () => {
+const Reviews = () => {
   return (
     <div className="about-container">
       <h1>About Kala Kendra</h1>
@@ -26,4 +26,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Reviews;

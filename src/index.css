@@ -19,7 +19,7 @@ body {
   --primary-color-dark: #565a4b; /* Dark green */
   --primary-color-light: white;  /* #e2bb99;  Beige */
   --secondary-color: #763f22; /* Brown */
-  --text-color: #333; /* Dark text color */
+  --text-color:  #333; /* Dark text color */
   --font-family: 'Merriweather', serif; /* Assuming similar to the font used */
 }
 
