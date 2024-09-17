@@ -1,16 +1,18 @@
 
 .navbar {
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px !important;
   background-color: white; /*Dark green */
-  background-size: 30rem; /* Ensures the image covers the entire navbar */
+  background-size: 29rem; /* Ensures the image covers the entire navbar */
   background-position: top; /* Centers the background image */
   background-repeat: repeat; /* Prevents repeating the image */
   position:fixed !important;
   width:-webkit-fill-available;
   z-index:1;
+  border-bottom: solid var(--primary-color-dark);
 }
 
 .navbar-brand {
@@ -26,6 +28,9 @@
 .navbar-links {
   list-style: none;
   display: flex;
+  flex-wrap:wrap;
+  list-style:none;
+  flex-grow:1;
   gap: 20px;
   margin: 0;
   padding: 0;
@@ -38,7 +43,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   height: 100%;
 }
@@ -55,4 +60,33 @@
 
 .navbar-links a:hover {
   color: #f4511e; /* Optional hover color */
+}
+
+/* Responsive Wrapping Behavior */
+.navbar-links {
+  justify-content: flex-start;
+}
+
+.navbar-links li {
+  min-width: 100px; /* Ensure links don't shrink too much */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-links {
+    justify-content: space-around;
+  }
+
+  .navbar-links li {
+    flex: 1 1 auto; /* Allow links to flex properly */
+    text-align: center;
+  }
+
+  .navbar-links a {
+    font-size: 14px; /* Slightly smaller text on smaller screens */
+  }
 }
