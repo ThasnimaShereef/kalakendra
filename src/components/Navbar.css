@@ -46,7 +46,7 @@
 .navbar-links li {
   flex-shrink: 0; /* Prevent shrinking of items */
   margin: 0 10px; /* Space between items */
-  min-width: 86px; /* Ensure links don't shrink too much */
+  min-width: 80px; /* Ensure links don't shrink too much */
 }
 
 /* Navbar Link Styling */
