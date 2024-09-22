@@ -33,6 +33,7 @@
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 20px;
+    padding:18px;
   }
   
   /* Call-to-action button */
@@ -51,7 +52,7 @@
   }
 
   .home-logo {
-    height: 80px; /* Adjust height as needed */
+    height: 90px; /* Adjust height as needed */
     width: auto;
   } 
 

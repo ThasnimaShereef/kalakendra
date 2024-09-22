@@ -1,32 +1,6 @@
 
-// // src/App.js
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import Home from './components/Home';
-// import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
-// import About from './components/About';
-// import Services from './components/Services';
-// import Navbar from './components/Navbar';
-
-// const App = () => {
-//   return (
-//     <Router>
-//          <Navbar /> {/* Add Navbar at the top */}
-//       <Routes>
-//         <Route path="/" element={<Home />} /> {/* Home component will render here */}
-//         <Route path="/portfolio" element={<Portfolio />} /> {/* Portfolio component will render here */}
-//         <Route path="/contact" element={<Contact />} /> {/* Contact component will render here */}
-//         <Route path="/about" element={<About />} /> {/* Portfolio component will render here */}
-//         <Route path="/services" element={<Services />} /> 
-//       </Routes>
-//     </Router>
-//   );
-// };
-
-// export default App;
-import React from 'react';
+// src/App.js
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -35,41 +9,65 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Reviews from './components/Reviews';
 import './App.css';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
 
 function App() {
-  
+  const [activeSection, setActiveSection] = useState('home');
+
+  // Function to handle scroll and detect the active section
+  const handleScroll = () => {
+    const sections = document.querySelectorAll('section');
+    const scrollPosition = window.pageYOffset + 100; // Adding 100 to offset for fixed navbar height
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+      const sectionId = section.getAttribute('id');
+
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        setActiveSection(sectionId);
+      }
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <BrowserRouter>
-    <div className="App">
-      {/* Navbar */}
-      <Navbar />
+    <BrowserRouter> {/* Wrap your app with BrowserRouter */}
+      <div className="App">
+        {/* Navbar */}
+        <Navbar activeSection={activeSection} />
 
-      {/* Sections */}
-      <div id="home">
-        <Home />
-      </div>
-      
-      <div id="portfolio">
-        <Portfolio />
-      </div>
+        {/* Sections */}
+        <section id="home">
+          <Home />
+        </section>
 
-      <div id="about">
-        <About />
-      </div>
+        <section id="about">
+          <About />
+        </section>
 
-      <div id="services">
-        <Services />
-      </div>
+        <section id="portfolio">
+          <Portfolio />
+        </section>
 
-      <div id="reviews">
-        <Reviews />
-      </div>
+        <section id="services">
+          <Services />
+        </section>
 
-      <div id="contact">
-        <Contact />
+        <section id="reviews">
+          <Reviews />
+        </section>
+
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
-    </div>
     </BrowserRouter>
   );
 }

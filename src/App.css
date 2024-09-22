@@ -39,7 +39,7 @@
  #about, #services, #portfolio , #reviews{
   padding: 100px 0;
 }
-#portfolio, #services, #contact{
+#about, #services, #contact{
   background-color:#e5e3d7;
 }
  #home{

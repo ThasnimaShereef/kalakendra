@@ -59,10 +59,14 @@
   font-size: 18px;
 }
 
-.navbar-links a:hover {
-  color: #f4511e; /* Optional hover color */
+/* .navbar-links a:hover {
+  color: #f4511e; 
+} */
+.navbar-links a:hover,
+.navbar-links a.active {
+  color: var(--primary-color-dark); /* Highlight color for active section */
+  border-bottom: 2px solid var(--primary-color-dark); /* Optional: underline for active tab */
 }
-
 /* Responsive Wrapping Behavior */
 .navbar-links {
   justify-content: center;
