@@ -4,7 +4,7 @@ import './Home.css'; // Add CSS for styling
 
 const Home = () => {
   return (
-    <div className="hero-page" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/kk.jpg)` }}>
+    <div className="hero-page" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/background.png)` }}>
       <div className="content-container">
       <img src={`${process.env.PUBLIC_URL}/image/logo/lockup color green.png`} alt="Kala Kendra Logo" className="home-logo" />
         <p>

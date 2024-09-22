@@ -14,10 +14,10 @@
   
   /* White container for content */
   .content-container {
-    background-color: white; 
+    /* background-color: white;  */
     padding: 40px;
     border-radius: 10px; /* Optional: Rounded corners */
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow */
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); Optional: Adds a shadow */
     text-align: center; /* Center align text */
     max-width: 600px; /* Limits the width of the container */
     margin: 0 20px; }/* Adds some margin to the sides */
@@ -55,72 +55,19 @@
     width: auto;
   } 
 
-  /* SinglePage.css */
+  /* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-page {
+    background-size: contain; /* On smaller screens, make sure the entire image is visible */
+    background-position: center;
+  }
 
-/* Basic styles for sections */
-/* 
-.section {
-  padding: 100px 0;
-  min-height: 100vh;
-  text-align: center;
+  .content-container {
+    padding: 15px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Navbar styling 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 20px 0;
-  z-index: 1000;
-}
-
-.navbar-links a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-}
-
-.cta-button {
-  background-color: #ff7f50;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-/* Smooth scrolling 
-html {
-  scroll-behavior: smooth;
-}
-
-/* Section-specific styles 
-.home {
-  /* background-image: url('/image/kk.jpg'); 
-  background-size: cover;
-  color: white;
-}
-
-.portfolio, .about, .services, .contact {
-  background-color: white;
-}
-
-/* Optional adjustments for portfolio 
-.portfolio-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.portfolio-gallery img {
-  width: 100%;
-  max-width: 300px;
-  margin-bottom: 20px;
-} */
