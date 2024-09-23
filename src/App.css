@@ -38,9 +38,25 @@
 }
  #about, #services, #portfolio , #reviews{
   padding: 100px 0;
+   /* Full viewport height */
+    /* background-image: url('/image/kk.jpg'); Background image */
+    background-size: contain; /* Ensures the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
-#about, #services, #contact{
+ #contact{
   background-color:#e5e3d7;
+    /* Full viewport height */
+    /* background-image: url('/image/kk.jpg'); Background image */
+    background-size: contain; /* Ensures the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: repeat; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
  #home{
   padding: 0 0 0 0;

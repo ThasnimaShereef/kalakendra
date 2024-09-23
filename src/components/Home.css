@@ -61,7 +61,7 @@
   .hero-page {
     background-size: contain; /* On smaller screens, make sure the entire image is visible */
     background-position: center;
-    background-repeat:repeat;
+    background-repeat: repeat;
   }
 
   .content-container {

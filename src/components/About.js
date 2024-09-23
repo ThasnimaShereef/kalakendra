@@ -5,9 +5,9 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" >
       <div className="about-content">
-        {/* Image on the left */}
+        {/* Image on the left */} 
         <div className="about-image">
           <img src={`${process.env.PUBLIC_URL}/image/logo/dp.jpg`} alt="Gunjan Choudhary" />
         </div>

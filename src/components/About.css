@@ -4,7 +4,16 @@
 .about-container {
   padding: 50px 20px;
 }
-
+.about-container {
+  height: 100vh; /* Full viewport height */
+  /* background-image: url('/image/kk.jpg'); Background image */
+  background-size: contain; /* Ensures the image covers the entire page */
+  background-position: center; /* Center the image */
+  background-repeat: repeat; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
 .about-content {
   display: flex;
   align-items: center;

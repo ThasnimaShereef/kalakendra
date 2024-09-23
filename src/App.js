@@ -48,23 +48,23 @@ function App() {
           <Home />
         </section>
 
-        <section id="about">
+        <section id="about" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
           <About />
         </section>
 
-        <section id="portfolio">
+        <section id="portfolio" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/textureb.jpg)` }}>
           <Portfolio />
         </section>
 
-        <section id="services">
+        <section id="services" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
           <Services />
         </section>
 
-        <section id="reviews">
+        <section id="reviews" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/textureb.jpg)` }}>
           <Reviews />
         </section>
 
-        <section id="contact">
+        <section id="contact" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
           <Contact />
         </section>
       </div>
