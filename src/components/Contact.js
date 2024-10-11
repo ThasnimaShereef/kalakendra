@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaFacebook, FaTwitter , FaWhatsapp} from 'reac
 
 const Contact = () => {
   // Replace this phone number with the designer's actual WhatsApp number
-  const whatsappNumber = '+917060879876';
+  const whatsappNumber = '+919653998631';
   const whatsappMessage = 'Hello, I would like to inquire about your interior design services.';
 
   return (
@@ -33,7 +33,7 @@ const Contact = () => {
 
       <div className="contact-section">
         <h2>Chat with Us on WhatsApp</h2>
-        <p>You can also reach out to us directly on WhatsApp for quick inquiries.</p>
+        <p className="whatsapp">You can also reach out to us directly on WhatsApp for quick inquiries.</p>
         <a 
           href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`} 
           className="whatsapp-link" 

@@ -5,15 +5,16 @@
   display: flex;
   justify-content: space-between; /* Space between logo and links */
   align-items: center; /* Align logo and links vertically in the center */
-  padding: 10px 20px !important;
+  padding: 1px 20px !important;
   background-color: white; /* Dark green */
   background-size: 29rem; /* Adjust as needed */
-  background-position: top;
+  background-position: center;
   background-repeat: repeat;
   position: fixed !important;
   width: 100%; /* Full width of the page */
   z-index: 1;
   border-bottom: solid var(--primary-color-dark);
+  /* height:57px; */
 }
 
 /* Logo Styling */
@@ -23,9 +24,11 @@
 }
 
 .navbar-logo {
-  height: 50px; /* Adjust height as needed */
+  height: 44px; /* Adjust height as needed */
   width: auto;
   margin-right: 20px; /* Space between logo and links */
+  position:relative;
+  /* top:-10px; */
 }
 
 /* Navbar Links Styling */
@@ -40,6 +43,8 @@
   font-weight: bold;
   color: var(--secondary-color);
   flex-grow: 1; /* Take up remaining space after logo */
+  position:relative;
+  /* top:-10px; */
 }
 
 /* Individual List Item Styling */

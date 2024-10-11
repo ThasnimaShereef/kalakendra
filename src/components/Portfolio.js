@@ -7,15 +7,15 @@ import './Portfolio.css'; // Custom styles for cards and images
 const Portfolio = () => {
   const sections = [
     
-    { id: 1, title: 'Bedroom', imgSrc: `${process.env.PUBLIC_URL}/image/bedroom/bedroom5.jpg`, link: '/bedroom' },
-  { id: 2, title: 'Kids Room', imgSrc: `${process.env.PUBLIC_URL}/image/kidsroom/kids1.jpg`, link: '/kids-room' },
-  { id: 3, title: 'Kitchen', imgSrc: `${process.env.PUBLIC_URL}/image/kitchen/kitchen1.jpeg`, link: '/kitchen' },
-  { id: 4, title: 'Living and Dining Area', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/living4.jpeg`, link: '/living-room' },
-  { id: 5, title: 'Puja Room', imgSrc: `${process.env.PUBLIC_URL}/image/pujaroom/pujaroom2.jpg`, link: '/puja-room' },
-  { id: 6, title: 'Office', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/living2.jpg`, link: '/office' },
-  { id: 7, title: 'Washroom', imgSrc: `${process.env.PUBLIC_URL}/image/washroom/washroom5.jpg`, link: '/washroom' },
-  { id: 8, title: 'Entrance', imgSrc: `${process.env.PUBLIC_URL}/image/entrance/entrance.jpg`, link: '/entrance' },
-  { id: 9, title: 'Exterior', imgSrc: `${process.env.PUBLIC_URL}/image/Exterior/exterior1.jpeg`, link: '/exterior' }
+    { id: 1, title: 'Bedroom', imgSrc: `${process.env.PUBLIC_URL}/image/bedroom/Bedroom02/B1.jpg`, link: '/bedroom' },
+  { id: 2, title: 'Kids Room', imgSrc: `${process.env.PUBLIC_URL}/image/kidsroom/Kids01/K1.jpg`, link: '/kids-room' },
+  { id: 3, title: 'Kitchen', imgSrc: `${process.env.PUBLIC_URL}/image/kitchen/Kitchen01/KT1.jpeg`, link: '/kitchen' },
+  { id: 4, title: 'Living and Dining Area', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/Living01/L1.jpg`, link: '/living-room' },
+  { id: 5, title: 'Puja Room', imgSrc: `${process.env.PUBLIC_URL}/image/pujaroom/Puja03/P1.jpeg`, link: '/puja-room' },
+  { id: 6, title: 'Office', imgSrc: `${process.env.PUBLIC_URL}/image/HallnDining/Living09/L2.jpeg`, link: '/office' },
+  { id: 7, title: 'Washroom', imgSrc: `${process.env.PUBLIC_URL}/image/washroom/Washroom01/W1.jpg`, link: '/washroom' },
+  { id: 8, title: 'Entrance', imgSrc: `${process.env.PUBLIC_URL}/image/entrance/Entrance02/E1.jpg`, link: '/entrance' },
+  { id: 9, title: 'Exterior', imgSrc: `${process.env.PUBLIC_URL}/image/Exterior/Exterior02/EX2.jpeg`, link: '/exterior' }
   ];
 
   return (

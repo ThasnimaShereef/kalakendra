@@ -33,7 +33,7 @@
   height: 250px;
   object-fit: cover;
   border-radius: 50%; /* Makes the image circular */
-  border: 5px solid var(--primary-color-dark); /* Optional: Add a border around the image */
+  border: 5px solid #fff; /* Optional: Add a border around the image */
 }
 
 .about-text {
@@ -43,12 +43,12 @@
 
 .about-text h1 {
   font-size: 2.5rem;
-  color: #333;
+  color: #fff;
 }
 
 .about-text p {
   font-size: 1.1rem;
-  color: #555;
+  color: #fff;
   line-height: 1.6;
 }
 

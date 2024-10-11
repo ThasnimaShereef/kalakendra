@@ -25,6 +25,7 @@
     font-size: 1.25rem;
     margin-top: 10px;
     text-align: center;
+    color: ghostwhite;
   }
   
   /* Optional: If you want to add hover effects to the card */
@@ -33,5 +34,9 @@
     transition: transform 0.3s ease-in-out;
   }
    .heading{
-    color:white;
+    color: var(--primary-color-dark);
+   }
+
+   .card-body {
+    background-color: var(--primary-color-dark);
    }
