@@ -1,6 +1,5 @@
 /* Home.css */
 
-
 .hero-page {
     height: 100vh; /* Full viewport height */
     /* background-image: url('/image/kk.jpg'); Background image */
@@ -24,16 +23,16 @@
   
   
   /* Heading and paragraph styling */
-  h1 {
+  .content-container h1 {
     font-size: 2.5rem;
     color: #333;
   }
   
-  p {
+ .content-container p {
     font-size: 1.2rem;
     color: #555;
     margin-bottom: 20px;
-    padding:18px;
+    padding:9px;
   }
   
   /* Call-to-action button */
@@ -55,6 +54,16 @@
     height: 90px; /* Adjust height as needed */
     width: auto;
   } 
+  /* src/components/Home.css */
+
+.admin-welcome {
+  color: var(--primary-color-dark);
+  font-size: 32px;
+  margin-bottom: 9px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
 
   /* Responsive adjustments */
 @media (max-width: 768px) {
