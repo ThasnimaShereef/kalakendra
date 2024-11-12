@@ -24,8 +24,8 @@ const About = () => {
 </div>
 
 <div className="welcome-content">
-        <div className="welcome-card">
-        <img src={`${process.env.PUBLIC_URL}/image/logo/greenlogo.jpg`} alt="Kala Kendra Logo" className="about-logo" />
+        <div className="welcome-card" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
+        <img src={`${process.env.PUBLIC_URL}/image/logo/greenlogo.png`} alt="Kala Kendra Logo" className="about-logo" />
           {/* <h1>ABOUT KALA KENDRA</h1> */}
           <p>
             At Kala Kendra Interior Design Studio, we believe in crafting spaces that blend beauty, functionality, 
@@ -71,15 +71,15 @@ const About = () => {
       <div className="pvm-section">
         {/* <h2 className="section-title">Our Philosophy, Vision, and Mission</h2> */}
         <div className="circles-container">
-          <div className="circle">
+          <div className="circle" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <h3>OUR PHILOSOPHY</h3>
             <p>Our philosophy centers on creating spaces that tell a story, reflecting individuality and personality.</p>
           </div>
-          <div className="circle">
+          <div className="circle" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <h3>OUR VISION</h3>
             <p>Kala Kendra Interior Design Studio envisions creating spaces that blend cultural richness with innovative design, fostering beauty, functionality, and sustainability in every project.</p>
           </div>
-          <div className="circle">
+          <div className="circle" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <h3>OUR MISSION</h3>
             <p>To craft meaningful, functional spaces that reflect individuality and cultural essence, blending artistry with innovation for timeless interiors.</p>
           </div>
@@ -96,29 +96,29 @@ const About = () => {
           design tells a story. Let us help you create a space that is both beautiful and deeply meaningful.
         </p>
         </div>
-        <div className="why-cards">
-          <div className="why-card">
+        <div className="why-cards" >
+          <div className="why-card" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <FaUsers className="why-icon" />
             <div>
               <h3>Experienced Team</h3>
               <p>Our designers, architects, and craftsmen bring expertise to every project.</p>
             </div>
           </div>
-          <div className="why-card">
+          <div className="why-card" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <FaHandsHelping className="why-icon" />
             <div>
               <h3>Personalized Approach</h3>
               <p>We focus on understanding each client's unique needs and preferences.</p>
             </div>
           </div>
-          <div className="why-card">
+          <div className="why-card" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <FaCertificate className="why-icon" />
             <div>
               <h3>Quality Assurance</h3>
               <p>We use only high-quality materials and work with skilled artisans.</p>
             </div>
           </div>
-          <div className="why-card">
+          <div className="why-card" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
             <FaLeaf className="why-icon" />
             <div>
               <h3>Sustainable Practices</h3>

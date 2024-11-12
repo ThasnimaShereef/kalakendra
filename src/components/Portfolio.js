@@ -25,9 +25,9 @@ const Portfolio = () => {
         {sections.map((section) => (
           <div key={section.id} className="col-md-4 mb-4">
             <Link to={section.link} style={{ textDecoration: 'none' }}>
-              <div className="card custom-card">
+              <div className="card custom-card" >
                 <img src={section.imgSrc} className="card-img-top custom-img" alt={section.title} />
-                <div className="card-body">
+                <div className="card-body" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/textureb.jpg)` }}>
                   <h5 className="card-title text-center">{section.title}</h5>
                 </div>
               </div>

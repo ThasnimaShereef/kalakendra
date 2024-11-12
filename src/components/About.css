@@ -338,11 +338,14 @@
   .process-icon {
     font-size: 40px;
   }
-
   .circle {
-    width: 200px;
-    height: 200px;
+    /* width: 260px;
+    height: 260px; */
+    padding:25px;
+    margin-left:0 !important;
+    margin-right: 0 !important;
   }
+
 }
 
 @media (max-width: 576px) {
@@ -366,5 +369,13 @@
 
   .visionary-content p {
     font-size: 0.9rem;
+  }
+  
+  .circle {
+    width: 260px;
+    height: 260px;
+    padding:25px;
+    margin-left:0 !important;
+    margin-right: 0 !important;
   }
 }
