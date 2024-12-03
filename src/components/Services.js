@@ -1,6 +1,6 @@
 // src/components/Services.js
 import React from 'react';
-import { FaHome, FaBuilding, FaTools, FaDraftingCompass, FaCouch } from 'react-icons/fa';
+import { FaHome, FaBuilding, FaTools, FaDraftingCompass, FaCouch, FaCube, FaProjectDiagram , FaLightbulb, FaHandshake } from 'react-icons/fa';
 import './Services.css';
 
 const Services = () => {
@@ -34,10 +34,34 @@ const Services = () => {
           <p>Optimize layouts for maximum functionality.</p>
         </div>
 
-        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
+        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/furniture.jpg)` }}>
           <FaCouch className="service-icon" />
           <h3>Custom Furniture & Fixtures</h3>
           <p>Tailor-made pieces to match your design vision.</p>
+        </div>
+
+        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/3drendering.jpg)` }}>
+          <FaCube  className="service-icon" />
+          <h3>3D Rendering and Visualisation</h3>
+          <p>Optimize layouts for maximum functionality.</p>
+        </div>
+
+        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/projectmgmt.jpg)` }}>
+          <FaProjectDiagram   className="service-icon" />
+          <h3>Project Management</h3>
+          <p>Optimize layouts for maximum functionality.</p>
+        </div>
+
+        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/texturebeige.jpg)` }}>
+          <FaHandshake  className="service-icon" />
+          <h3>Consultation Services</h3>
+          <p>Optimize layouts for maximum functionality.</p>
+        </div>
+
+        <div className="service-item" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/image/logo/lighting.jpg)` }}>
+          <FaLightbulb  className="service-icon" />
+          <h3>Lighting Design</h3>
+          <p>Optimize layouts for maximum functionality.</p>
         </div>
       </div>
     </div>

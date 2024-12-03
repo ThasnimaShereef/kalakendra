@@ -40,5 +40,5 @@
    }
 
    .card-body {
-    background-color: var(--primary-color-dark);
+    background-size: contain;
    }

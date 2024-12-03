@@ -11,7 +11,7 @@
   background-repeat: repeat;
   position: fixed !important;
   width: 100%; /* Full width of the page */
-  z-index: 2;
+  z-index: 3;
   border-bottom: solid var(--primary-color-dark);
   /* height:57px; */
 }
